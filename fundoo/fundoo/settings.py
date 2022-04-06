@@ -103,11 +103,11 @@ CHANNEL_LAYERS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'chatdb',
-        'USER': 'admin',
-        'PASSWORD': '*',
-        'HOST': '*',
-        'PORT': '*',
+        'NAME': 'mydatabase',
+        'USER': 'ansible@myqsl',
+        'PASSWORD': 'Backend@1234',
+        'HOST': 'myqsl.mysql.database.azure.com',
+        'PORT': '3306',
     }
 }
 #sagar kadam
