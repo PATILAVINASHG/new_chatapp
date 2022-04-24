@@ -106,7 +106,7 @@ DATABASES = {
         'NAME': 'mydatabase',
         'USER': 'ansible@myqsl',
         'PASSWORD': 'Backend@1234',
-        'HOST':'database_container',
+        'HOST':'databasecontainer',
         'PORT': '3306',
     }
 }
