@@ -104,7 +104,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mydatabase',
-        'USER': 'ansible@myqsl',
+        'USER': 'avinash@mysql001',
         'PASSWORD': 'Backend@1234',
         'HOST':'databasecontainer',
         'PORT': '3306',
